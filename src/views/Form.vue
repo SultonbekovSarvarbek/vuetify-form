@@ -164,18 +164,12 @@ export default {
 </script>
 
 <style>
-.theme--light
-  /deep/
-  .parent-outer-input.v-text-field--solo
-  .v-input__append-outer {
+.theme--light .parent-outer-input.v-text-field--solo .v-input__append-outer {
   margin: 0;
 }
-
 .theme--light
-  /deep/
   .parent-outer-input.v-text-field--solo
   .v-input__append-outer
-  /deep/
   .outer-input
   .v-input__control
   .v-input__slot
@@ -185,33 +179,22 @@ export default {
   text-align: center;
   font-weight: 400;
 }
-
-.theme--light /deep/ .parent-outer-input > .v-input__control {
+.theme--light .parent-outer-input > .v-input__control {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-.theme--light
-  /deep/
-  .parent-outer-input
-  > .v-input__control
-  /deep/
-  .v-input__slot {
+.theme--light .parent-outer-input > .v-input__control .v-input__slot {
   border-right: 1px solid rgba(204, 201, 201, 0.8);
 }
-
 .theme--light
-  /deep/
   .parent-outer-input.v-text-field--solo
   .v-input__append-outer
-  /deep/
   .outer-input
   > .v-input__control {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
-
 .theme--light
-  /deep/
   .v-text-field--solo:not(.v-input--is-focused):not(.v-input--has-state)
   > .v-input__control
   > .v-input__slot
@@ -220,7 +203,6 @@ export default {
   background: rgba(196, 196, 196, 0.2);
 }
 .theme--light
-  /deep/
   .v-text-field.v-text-field--solo:not(.v-text-field--solo-flat)
   > .v-input__control
   > .v-input__slot {
@@ -228,7 +210,6 @@ export default {
   height: 55px;
   background: rgba(196, 196, 196, 0.2);
 }
-
 .v-text-field
   > .v-input__control
   > .v-input__slot
@@ -236,11 +217,10 @@ export default {
   input::placeholder {
   color: rgba(0, 0, 0, 0.4);
 }
-.theme--light /deep/.theme--light.v-icon {
+.theme--light .theme--light.v-icon {
   color: #66d0e8;
 }
-
-.theme--light /deep/.v-btn:not(.v-btn--round).v-size--default {
+.theme--light .v-btn:not(.v-btn--round).v-size--default {
   height: unset;
   padding: 6px 18px 6px 24px;
   min-width: unset;
