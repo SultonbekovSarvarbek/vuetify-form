@@ -46,7 +46,7 @@
             </v-col>
             <v-col xl="6" lg="6" md="6" sm="12" xs="12">
               <div class="form-label">
-                <label class="form-label"> Объём перевозки</label>
+                <label> Объём перевозки</label>
               </div>
               <v-text-field
                 :rules="transVolumeRules"
