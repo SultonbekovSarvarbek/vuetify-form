@@ -228,7 +228,7 @@ export default {
 .form-action__btn:not(.form-action__btn--round).v-size--default {
   background-color: #66d0e8;
   border: none;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: none;
   color: #fff;
 }
